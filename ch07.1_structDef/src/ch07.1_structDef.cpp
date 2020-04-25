@@ -25,6 +25,8 @@ Student Stu_cpp[30];
 int main() {
 	Student * stuptr;
 	stuptr=&stu1;
+	cout << "Student num : "<<stu1.num<<endl;
 	cout << "Student name: "<<stuptr->name<<endl; // prints
+
 	return 0;
 }
